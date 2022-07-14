@@ -1,0 +1,28 @@
+2022-07-14/10:57:26		Start of Validation on files for prediction!!
+2022-07-14/10:57:26		Raw Data Validation Complete!!
+2022-07-14/10:57:26		Starting Data Transforamtion!!
+2022-07-14/10:57:26		DataTransformation Completed!!!
+2022-07-14/10:57:26		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-07-14/10:57:26		Table creation Completed!!
+2022-07-14/10:57:26		Insertion of Data into Table started!!!!
+2022-07-14/10:57:34		Insertion in Table completed!!!
+2022-07-14/10:57:34		Deleting Good Data Folder!!!
+2022-07-14/10:57:34		Good_Data folder deleted!!!
+2022-07-14/10:57:34		Moving bad files to Archive and deleting Bad_Data folder!!!
+2022-07-14/10:57:34		Bad files moved to archive!! Bad folder Deleted!!
+2022-07-14/10:57:34		Validation Operation completed!!
+2022-07-14/10:57:34		Extracting csv file from table
+2022-07-14/10:57:34		Start of Prediction
+2022-07-14/10:57:34		Entered the get_data method of the Data_Getter class
+2022-07-14/10:57:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-14/10:57:34		Entered the is_null_present method of the Preprocessor class
+2022-07-14/10:57:34		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-14/10:57:34		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-14/10:57:34		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-14/10:57:34		Entered the load_model method of the File_Operation class
+2022-07-14/10:57:34		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-07-14/10:57:34		Entered the find_correct_model_file method of the File_Operation class
+2022-07-14/10:57:34		Exited the find_correct_model_file method of the Model_Finder class.
+2022-07-14/10:57:34		Entered the load_model method of the File_Operation class
+2022-07-14/10:57:34		Model File XGBoost2 loaded. Exited the load_model method of the Model_Finder class
+2022-07-14/10:57:34		End of Prediction
